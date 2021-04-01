@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "docz dev",
+    "start": "npm run dev",
+    "build:doc": "rimraf doc-site && docz build",
+    "preview:doc": "docz serve",
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz"
   },
@@ -26,11 +30,15 @@
     "@umijs/fabric": "^2.5.7",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
+    "docz": "^2.3.1",
+    "gatsby-plugin-less": "^5.2.0",
     "husky": "^6.0.0",
+    "less": "^4.1.1",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "rimraf": "^3.0.2",
     "typescript": "^4.2.3"
   },
   "lint-staged": {
