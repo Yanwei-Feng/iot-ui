@@ -1,7 +1,14 @@
 {
   "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": true
+  },
   "exclude": [
+    "**/__tests__/**",
     "**/demo/**",
-    "node_modules"
+    "node_modules",
+    "lib",
+    "esm",
+    "components/doc-comps"
   ]
 }
