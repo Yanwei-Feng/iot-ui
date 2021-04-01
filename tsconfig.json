@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
+      "paths": {
+        "iot-ui": ["components/index.ts"],
+        "iot-ui/esm/*": ["components/*"],
+        "iot-ui/lib/*": ["components/*"]
+      },
     "target": "esnext",
     "module": "commonjs",
     "jsx": "react",
@@ -17,6 +22,7 @@
     "global.d.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/demo/**"
   ]
 }
