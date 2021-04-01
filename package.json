@@ -1,6 +1,6 @@
 {
-  "name": "iot-ui",
-  "version": "1.0.4",
+  "name": "@jd/iot-ui",
+  "version": "1.0.5",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
