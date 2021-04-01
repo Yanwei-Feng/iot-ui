@@ -110,7 +110,7 @@ async function build() {
  */
 async function publish() {
   timeLog('发布组件库', 'start');
-  await run('npm publish --http://registry.m.jd.com/');
+  await run('npm publish --registry http://registry.m.jd.com/');
   timeLog('发布组件库', 'end');
 }
 
