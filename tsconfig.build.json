@@ -9,6 +9,6 @@
     "node_modules",
     "lib",
     "esm",
-    "components/doc-comps"
+    "components/doc-comps/*"
   ]
 }

@@ -25,3 +25,6 @@ yarn-error.log*
 
 # doc
 /.docz
+# 忽略组件库打包产物
+esm
+lib
